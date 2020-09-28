@@ -13,4 +13,3 @@ define values in extra_vars.yml file to override default variable values in the 
 ~$ ansible-playbook deploy_sshd_config.yml --extra-vars "vars_file=./extra_vars.yml"
 ```
 
-define values in extra_vars.yml file to override default variable values in the role.
