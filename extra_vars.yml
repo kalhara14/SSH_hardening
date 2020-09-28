@@ -1,0 +1,12 @@
+---
+
+Pass_auth: "no"
+
+sshd_max_auth_tries: "4"
+
+sshd_x11_forwarding: "yes"
+
+sshd_root_login: "no"
+
+
+

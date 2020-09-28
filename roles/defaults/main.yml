@@ -1,0 +1,32 @@
+---
+# defaults file for roles/sshd_hardening
+
+# Enable hardening sshd
+sshd_hardening: true
+
+# Define listening sshd port
+sshd_port: "22"
+
+# Deny root login
+sshd_root_login: "no"
+
+# Disable x11 forwarding
+sshd_x11_forwarding: "no"
+
+# Disconnect idle sessions
+sshd_client_alive_intervale: "300"
+
+# Set banner
+sshd_banner: "/etc/issue.net"
+
+# Password authentification 
+Pass_auth: "yes"
+
+# Limit  max try
+sshd_max_auth_tries: "5"
+
+# permit empty password disabled
+Permit_empty_pass: "no"
+
+# permit public key login
+Pub_key_auth: "yes"

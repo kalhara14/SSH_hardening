@@ -1,0 +1,7 @@
+---
+# handlers file for roles/sshd_hardening
+
+- name: "Restart sshd"
+  service:
+    name: "{{ sshd_service }}"
+    state: restarted

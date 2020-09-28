@@ -1,0 +1,7 @@
+---
+
+- name: deploy configurations
+  hosts: nodes
+  become: true
+  roles:
+    - role: sshd_hardening
